@@ -1,46 +1,140 @@
 <!DOCTYPE html>
-<html lang="ur">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaka Kitchen Store</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f6f9; padding: 20px; margin: 0; color: #333; }
-        header { background-color: #ff5722; color: white; padding: 25px; font-size: 26px; font-weight: bold; border-radius: 0 0 15px 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-        .intro { margin: 30px auto; max-width: 600px; font-size: 18px; line-height: 1.6; padding: 0 15px; }
-        .product-card { border: 1px solid #e0e0e0; padding: 25px; background: white; max-width: 340px; margin: 20px auto; border-radius: 16px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
-        .product-title { color: #ff5722; font-size: 22px; margin-bottom: 15px; font-weight: bold; }
-        
-        /* سوشل میڈیا بٹنز کا پریمیم اسٹائل */
-        .btn-link { color: white; padding: 14px 20px; text-decoration: none; border-radius: 30px; display: block; font-size: 16px; font-weight: bold; margin: 12px auto; max-width: 280px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); transition: 0.3s; }
-        .btn-whatsapp { background-color: #25D366; }
-        .btn-tiktok { background-color: #000000; }
-        .btn-instagram { background-color: #E1306C; }
-        .btn-facebook { background-color: #1877F2; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CaCa Kitchen Store</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:linear-gradient(135deg,#111,#222,#000);
+      color:white;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      min-height:100vh;
+      padding:20px;
+    }
+
+    .card{
+      width:100%;
+      max-width:420px;
+      background:#1b1b1b;
+      border-radius:25px;
+      padding:30px;
+      text-align:center;
+      box-shadow:0 0 30px rgba(255,255,255,0.15);
+      border:2px solid #444;
+    }
+
+    .logo{
+      width:120px;
+      height:120px;
+      margin:auto;
+      border-radius:50%;
+      background:gold;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      font-size:34px;
+      font-weight:bold;
+      color:black;
+      box-shadow:0 0 20px gold;
+    }
+
+    h1{
+      margin-top:20px;
+      font-size:30px;
+      color:gold;
+    }
+
+    p{
+      margin-top:10px;
+      color:#ccc;
+      font-size:15px;
+    }
+
+    .btn{
+      display:block;
+      width:100%;
+      margin-top:18px;
+      padding:15px;
+      border-radius:15px;
+      text-decoration:none;
+      font-size:18px;
+      font-weight:bold;
+      transition:0.3s;
+      color:white;
+    }
+
+    .whatsapp{
+      background:#25D366;
+    }
+
+    .instagram{
+      background:linear-gradient(45deg,#ff0066,#ff6600,#cc00ff);
+    }
+
+    .tiktok{
+      background:#000;
+      border:2px solid #fff;
+    }
+
+    .website{
+      background:gold;
+      color:black;
+    }
+
+    .btn:hover{
+      transform:scale(1.05);
+      box-shadow:0 0 20px rgba(255,255,255,0.4);
+    }
+
+    .footer{
+      margin-top:25px;
+      font-size:13px;
+      color:#888;
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        Kaka Kitchen Store
-    </header>
+  <div class="card">
 
-    <div class="intro">
-        <p>خوش آمدید! 🍳 یہاں آپ کو کچن کے تمام جدید اور اسمارٹ گیجٹس، ہوم ایکسیسریز اور روزمرہ استعمال کی بہترین چیزیں مناسب قیمت میں ملیں گی۔</p>
+    <div class="logo">CK</div>
+
+    <h1>CaCa Kitchen Store</h1>
+
+    <p>Premium Kitchen Products & Online Store</p>
+
+    <a class="btn whatsapp" href="https://wa.me/923157301776" target="_blank">
+      WhatsApp Chat
+    </a>
+
+    <a class="btn instagram" href="https://instagram.com/cacakitchenstore" target="_blank">
+      Instagram
+    </a>
+
+    <a class="btn tiktok" href="https://tiktok.com/@cacakitchenstore" target="_blank">
+      TikTok
+    </a>
+
+    <a class="btn website" href="#">
+      Visit Website
+    </a>
+
+    <div class="footer">
+      © 2026 CaCa Kitchen Store - All Rights Reserved
     </div>
 
-    <div class="product-card">
-        <div class="product-title">ہمارے آفیشل لنکس</div>
-        <p style="color: #666; font-size: 14px; margin-bottom: 20px;">آرڈر کرنے یا ہمیں سوشل میڈیا پر فالو کرنے کے لیے نیچے بٹنز پر کلک کریں:</p>
-        
-        <a href="https://wa.me/923157301776" target="_blank" class="btn-link btn-whatsapp">💬 آرڈر کے لیے واٹس ایپ کریں</a>
-        
-        <a href="https://www.tiktok.com/@cacakitchenstore" target="_blank" class="btn-link btn-tiktok">🎵 ٹک ٹاک پر فالو کریں</a>
-        
-        <a href="https://www.instagram.com/cacakitchenstore" target="_blank" class="btn-link btn-instagram">📸 انسٹاگرام پر فالو کریں</a>
-        
-        <a href="https://www.facebook.com/search/top/?q=Nisuchoudhary%20Jutt" target="_blank" class="btn-link btn-facebook">👤 فیس بک پیج دیکھیں</a>
-    </div>
+  </div>
 
 </body>
 </html>
