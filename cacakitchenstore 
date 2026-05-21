@@ -6,11 +6,17 @@
     <title>Kaka Kitchen Store</title>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f6f9; padding: 20px; margin: 0; color: #333; }
-        header { background-color: #ff5722; color: white; padding: 20px; font-size: 24px; font-weight: bold; border-radius: 0 0 10px 10px; }
+        header { background-color: #ff5722; color: white; padding: 25px; font-size: 26px; font-weight: bold; border-radius: 0 0 15px 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
         .intro { margin: 30px auto; max-width: 600px; font-size: 18px; line-height: 1.6; padding: 0 15px; }
-        .product-card { border: 1px solid #e0e0e0; padding: 20px; background: white; max-width: 320px; margin: 20px auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
-        .product-title { color: #ff5722; font-size: 22px; margin-bottom: 10px; font-weight: bold; }
-        .btn-order { background-color: #25D366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 25px; display: inline-block; font-weight: bold; margin-top: 15px; box-shadow: 0 4px 8px rgba(37,211,102,0.3); }
+        .product-card { border: 1px solid #e0e0e0; padding: 25px; background: white; max-width: 340px; margin: 20px auto; border-radius: 16px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+        .product-title { color: #ff5722; font-size: 22px; margin-bottom: 15px; font-weight: bold; }
+        
+        /* سوشل میڈیا بٹنز کا پریمیم اسٹائل */
+        .btn-link { color: white; padding: 14px 20px; text-decoration: none; border-radius: 30px; display: block; font-size: 16px; font-weight: bold; margin: 12px auto; max-width: 280px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); transition: 0.3s; }
+        .btn-whatsapp { background-color: #25D366; }
+        .btn-tiktok { background-color: #000000; }
+        .btn-instagram { background-color: #E1306C; }
+        .btn-facebook { background-color: #1877F2; }
     </style>
 </head>
 <body>
@@ -20,13 +26,20 @@
     </header>
 
     <div class="intro">
-        <p>میں خوش آمدید! 🍳 یہاں آپ کو کچن کے تمام جدید اور اسمارٹ گیجٹس، ہوم ایکسیسریز اور روزمرہ استعمال کی بہترین چیزیں مناسب قیمت میں ملیں گی۔</p>
+        <p>خوش آمدید! 🍳 یہاں آپ کو کچن کے تمام جدید اور اسمارٹ گیجٹس، ہوم ایکسیسریز اور روزمرہ استعمال کی بہترین چیزیں مناسب قیمت میں ملیں گی۔</p>
     </div>
 
     <div class="product-card">
-        <div class="product-title">کچن گیجٹس اور ایکسیسریز</div>
-        <p>ہمارے پاس کچن کو اسمارٹ بنانے والے تمام جدید آئٹمز دستیاب ہیں۔ اپنا آرڈر بک کروانے کے لیے نیچے بٹن پر کلک کریں۔</p>
-        <a href="https://wa.me/974" target="_blank" class="btn-order">آرڈر کے لیے واٹس ایپ کریں</a>
+        <div class="product-title">ہمارے آفیشل لنکس</div>
+        <p style="color: #666; font-size: 14px; margin-bottom: 20px;">آرڈر کرنے یا ہمیں سوشل میڈیا پر فالو کرنے کے لیے نیچے بٹنز پر کلک کریں:</p>
+        
+        <a href="https://wa.me/923157301776" target="_blank" class="btn-link btn-whatsapp">💬 آرڈر کے لیے واٹس ایپ کریں</a>
+        
+        <a href="https://www.tiktok.com/@cacakitchenstore" target="_blank" class="btn-link btn-tiktok">🎵 ٹک ٹاک پر فالو کریں</a>
+        
+        <a href="https://www.instagram.com/cacakitchenstore" target="_blank" class="btn-link btn-instagram">📸 انسٹاگرام پر فالو کریں</a>
+        
+        <a href="https://www.facebook.com/search/top/?q=Nisuchoudhary%20Jutt" target="_blank" class="btn-link btn-facebook">👤 فیس بک پیج دیکھیں</a>
     </div>
 
 </body>
