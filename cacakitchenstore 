@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaka Kitchen Store</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f6f9; padding: 20px; margin: 0; color: #333; }
+        header { background-color: #ff5722; color: white; padding: 20px; font-size: 24px; font-weight: bold; border-radius: 0 0 10px 10px; }
+        .intro { margin: 30px auto; max-width: 600px; font-size: 18px; line-height: 1.6; padding: 0 15px; }
+        .product-card { border: 1px solid #e0e0e0; padding: 20px; background: white; max-width: 320px; margin: 20px auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        .product-title { color: #ff5722; font-size: 22px; margin-bottom: 10px; font-weight: bold; }
+        .btn-order { background-color: #25D366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 25px; display: inline-block; font-weight: bold; margin-top: 15px; box-shadow: 0 4px 8px rgba(37,211,102,0.3); }
+    </style>
+</head>
+<body>
+
+    <header>
+        Kaka Kitchen Store
+    </header>
+
+    <div class="intro">
+        <p>میں خوش آمدید! 🍳 یہاں آپ کو کچن کے تمام جدید اور اسمارٹ گیجٹس، ہوم ایکسیسریز اور روزمرہ استعمال کی بہترین چیزیں مناسب قیمت میں ملیں گی۔</p>
+    </div>
+
+    <div class="product-card">
+        <div class="product-title">کچن گیجٹس اور ایکسیسریز</div>
+        <p>ہمارے پاس کچن کو اسمارٹ بنانے والے تمام جدید آئٹمز دستیاب ہیں۔ اپنا آرڈر بک کروانے کے لیے نیچے بٹن پر کلک کریں۔</p>
+        <a href="https://wa.me/974" target="_blank" class="btn-order">آرڈر کے لیے واٹس ایپ کریں</a>
+    </div>
+
+</body>
+</html>
